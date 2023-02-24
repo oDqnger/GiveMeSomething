@@ -8,7 +8,7 @@ using Newtonsoft.Json.Linq;
 
 public class ClientTemplate
 {
-    public const string apiKeyPath = @"C:\Users\Diman\Desktop\Diman\Programming work\C#\GiveMeSomething\GiveMeSomething\APIKEY.txt";
+    public const string apiKeyPath = @"APIKEY.txt";
     public static readonly string APIKEY = File.ReadAllLines(apiKeyPath)[0];
 
     public static string answer { get; set; }
